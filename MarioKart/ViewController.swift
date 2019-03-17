@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var kart3: UIImageView!
     
     //vars to hold starting points of our karts
-    var startingPointKart1 = CGPoint()
+    var startingPointkart1 = CGPoint()
     var startingPointKart2 = CGPoint()
     var startingPointKart3 = CGPoint()
     
@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     }
     
     func loadsKartStartingPoints(){
-        startingPointKart1 = kart1.center
+        startingPointkart1 = kart1.center
         startingPointKart2 = kart2.center
         startingPointKart3 = kart3.center
     }
@@ -133,7 +133,7 @@ class ViewController: UIViewController {
     //sets the center positions for the views
     func longPressToResetPositions(using sender: UILongPressGestureRecognizer){
         UIView.animate(withDuration: 0.8) {
-            self.kart1.center = self.startingPointKart1
+            self.kart1.center = self.startingPointkart1
             self.kart2.center = self.startingPointKart2
             self.kart3.center = self.startingPointKart3
             
