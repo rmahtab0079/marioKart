@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  MarioKart
 //
-//  Created by Joy Paul on 3/6/19.
-//  Copyright © 2019 Joy Paul. All rights reserved.
+//  Created by Rageeb Mahtab on 3/6/19.
+//  Copyright © 2019 Rageeb Mahtab. All rights reserved.
 //
 
 import UIKit
